@@ -1,0 +1,42 @@
+* {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+body {
+  background-color: hsl(235, 16%, 14%)
+}
+
+h1 {
+  color: white;
+}
+
+.nums-container {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.upper {
+  height: 30px;
+  width: 60px;
+  background-color: blue;
+  margin-bottom: 2px;
+}
+
+.lower {
+  height: 30px;
+  width: 60px;
+  background-color: blue;
+}
+
+.nums {
+  position: absolute;
+  top: 0;
+  right: 13px;
+  color: hsl(345, 95%, 68%);
+  font-size: 3rem;
+  font-weight: bold;
+/*   background: linear-gradient(to bottom, #333 50%, #ff0066 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
