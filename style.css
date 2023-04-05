@@ -41,7 +41,7 @@ h1 {
 .nums {
   position: absolute;
   display: block;
-  bottom: 0;
+  top: -2px;
   left: 0;
   right: 0;
   text-align: center; 
