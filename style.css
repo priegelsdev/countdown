@@ -3,15 +3,17 @@
 }
 
 body {
-  background-color: hsl(235, 16%, 14%)
+  background-color: hsl(235, 16%, 14%);
 }
 
 h1 {
   color: white;
+  text-align: center;
 }
 
 .countdown {
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
