@@ -1,20 +1,32 @@
 * {
   font-family: 'Red Hat Text', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   background-color: hsl(235, 16%, 14%);
+}
+
+main {
+  height: 100vh;
+  background: url(images/bg-stars.svg);
+  background-position: center;
 }
 
 h1 {
   color: white;
   text-align: center;
+  margin-top: 3em;
 }
 
 .countdown {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-top: 3em;
 }
 
 .nums-container {
@@ -60,4 +72,22 @@ h1 {
   color: #8486a9;
   text-align: center;
   text-transform: uppercase;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: url("images/pattern-hills.svg");
+  background-position: top;
+}
+
+.socials {
+  display: flex;
+  gap: 2em;
+  margin-top: 50px;
 }
